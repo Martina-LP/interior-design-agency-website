@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "Montserrat", "sans-serif";
+  font-size: .9rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: .8rem;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+button {
+  padding: 10px 38px;
+  background: white;
+  color: black;
+  border: 2px solid gray;
+  border-radius: 4px;
+  font-size: .8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 3px 3px 1px gray;
+}
+
+h1, h2, h3, h4 {
+  margin: 8px 0 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+}
+
+.navbar img {
+  height: 80px;
+  width: 120px;
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase; 
+  text-align: center;
+}
+
+.second__navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  text-transform: uppercase;
+}
+
+.navbar__list {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.hero__text p {
+  font-size: 30px;
+  margin: 40px 50px 0 50px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.intro_img img {
+  height: 500px;
+  width: 100%;
+}
+
+.hero {
+  margin-top: 30px;
+  padding: 0 5vw;
+}
+
+.hero__text {
+  position: relative;
+}
+
+.hero__text h1 {
+  font-size: 80px;
+}
+
+.description {
+  padding: 80px 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about_img img {
+  width: 120%;
+  height: 300px;
+}
+
+.description__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.description__text,
+.description__text div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  width: 45%;
+}
+
+.creations__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.creations__text h1 {
+  width: 38%;
+  text-align: left;
+}
+
+.description__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.description__cards--card img {
+  width: 340px;
+  height: 400px;
+}
+
+.first__card img {
+  height: 450px;
+}
+
+.first__card {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.img__caption {
+  position: absolute;
+  bottom: 16px;
+  left: 24px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.work {
+  padding: 40px 5vw;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: black;
+  color: white;
+}
+
+.work__text h1 {
+  display: flex;
+  justify-content: flex-start;
+  text-transform: uppercase;
+}
+
+.container__work {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.work__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0;
+  height: 440px;
+}
+
+.work__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.work__col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  border-bottom: 1px solid gray;
+}
+
+.first__col, .second__col {
+  height: 80px;
+}
+
+.first__col span {
+  font-size: 10px;
+}
+
+.collective {
+  padding: 80px 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.collective__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collective__text h1 {
+  width: 52%;
+}
+
+.collective__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.right__card img {
+  width: 670px;
+  height: 300px;
+}
+
+.left__card img {
+  width: 400px;
+  height: 300px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.contact__wrapper {
+  padding: 40px 5vw;
+}
+
+.contact__content {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-kitchen-trends-1566840124.jpg");
+  height: 300px;
+  text-align: center;
+  color: white;
+  line-height: 60px;
+}
+
+.contact__content button {
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+.contact__content button:hover {
+  background-color: black;
+}
+
+.contact__content h3 {
+  color: rgb(62, 62, 62);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  line-height: 1.5;
+}
+
+.ft-title {
+  color: white;
+  width: 60%;
+}
+
+.ft-main {
+  padding: 40px 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid gray;
+}
+
+.ft-secondary {
+  padding: 20px 5vw;
+  background-color: black;
+}
+
+.ft-secondary-item img {
+  height: 80px;
+  width: 120px;
+  margin-left: 20px;
+}
+
+.footer ul li {
+  color: gray;
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 30px;
+  margin-left: 0;
+}
+
+.footer a {
+  color: gray;
+  line-height: 30px;
+}
+/* Tablet */
+@media only screen and (min-width: 768px) {
+
+  .description__text {
+    align-items: flex-start;
+  }
+
+  .description__text h1 {
+    border: 0;
+    border-right: 1px solid rgb(30, 30, 30);
+  }
+
+  .description__cards {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .description__cards--card {
+    /* max-width: 150px; */
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+  body {
+    margin: 0 300px;
+  }
+}
